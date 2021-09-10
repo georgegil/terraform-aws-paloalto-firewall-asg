@@ -1,0 +1,12 @@
+type=dhcp-client
+hostname=${hostname}
+panorama-server=${panorama-server}
+tplname=${tplname}
+dgname=${dgname}
+vm-auth-key=${vm-auth-key}
+dhcp-send-hostname=yes
+dhcp-send-client-id=yes
+dhcp-accept-server-hostname=yes
+dhcp-accept-server-domain=yes
+plugin-op-commands=aws-gwlb-inspect:enable
+op-command-modes=mgmt-interface-swap,jumbo-frame
