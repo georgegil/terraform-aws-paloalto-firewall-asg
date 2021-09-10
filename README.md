@@ -10,5 +10,6 @@ This is a variation of Palo Alto's https://github.com/PaloAltoNetworks/AWS-GWLB-
 She ain't perfect, and needs a lot of polishing (not to mention powershell exception handling etc), but this a copy of a module used in a production environment.. 
 
 
+## Development
 
-
+Feel free to create a branch and submit a pull request to make changes and improvements to the module.
