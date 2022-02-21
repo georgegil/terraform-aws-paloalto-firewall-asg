@@ -444,7 +444,7 @@ resource "aws_secretsmanager_secret_version" "pan_api" {
 }
 
 module "ec2-asg" {
-  source = "./custom_modules/asg"
+  source = "./modules/asg"
 
   tags = var.tags
 
@@ -560,7 +560,7 @@ resource "aws_lb_listener" "lb_listener" {
 
 module "bucket" {
 
-  source  = "./custom_modules/bucket"
+  source  = "./modules/bucket"
 
 
   tags = var.tags
