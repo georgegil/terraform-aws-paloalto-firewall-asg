@@ -15,7 +15,7 @@ module "egress-vpc" {
 
   pan_version           = "10.0.7"
   vpc_cidr              = "10.182.240.0/24"
-  primary_transit_gw_id = "tgw-0b669a02b8159a2b4"
+  primary_transit_gw_id = "tgw-0b669a02547b4"
   public_key            = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDquCjWN+YBvZeY6yyiZoKJCk0d"
   panorama_server       = "10.20.50.100"
   hostname              = "firewall123"
